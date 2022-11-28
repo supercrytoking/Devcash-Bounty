@@ -1,0 +1,121 @@
+/* Manrope Sans Serif Font*/
+@font-face {
+  font-family: "Manrope";
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  src: url("~assets/fonts/Manrope/Manrope-Extralight.woff2") format("woff2"),
+    url("~assets/fonts/Manrope/Manrope-Extralight.woff") format("woff"),
+    url("~assets/fonts/Manrope/Manrope-Extralight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Manrope";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("~assets/fonts/Manrope/Manrope-Light.woff2") format("woff2"),
+    url("~assets/fonts/Manrope/Manrope-Light.woff") format("woff"),
+    url("~assets/fonts/Manrope/Manrope-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("~assets/fonts/Manrope/Manrope-Regular.woff2") format("woff2"),
+    url("~assets/fonts/Manrope/Manrope-Regular.woff") format("woff"),
+    url("~assets/fonts/Manrope/Manrope-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("~assets/fonts/Manrope/Manrope-Medium.woff2") format("woff2"),
+    url("~assets/fonts/Manrope/Manrope-Medium.woff") format("woff"),
+    url("~assets/fonts/Manrope/Manrope-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Manrope";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("~assets/fonts/Manrope/Manrope-Semibold.woff2") format("woff2"),
+    url("~assets/fonts/Manrope/Manrope-Semibold.woff") format("woff"),
+    url("~assets/fonts/Manrope/Manrope-Semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("~assets/fonts/Manrope/Manrope-Bold.woff2") format("woff2"),
+    url("~assets/fonts/Manrope/Manrope-Bold.woff") format("woff"),
+    url("~assets/fonts/Manrope/Manrope-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Manrope";
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("~assets/fonts/Manrope/Manrope-Extrabold.woff2") format("woff2"),
+    url("~assets/fonts/Manrope/Manrope-Extrabold.woff") format("woff"),
+    url("~assets/fonts/Manrope/Manrope-Extrabold.ttf") format("truetype");
+}
+
+/* JetBrains Mono Font */
+@font-face {
+  font-family: "JetBrainsMono";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("~assets/fonts/JetBrainsMono/JetBrainsMono-Regular.eot");
+  src: url("~assets/fonts/JetBrainsMono/JetBrainsMono-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("~assets/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2")
+      format("woff2"),
+    url("~assets/fonts/JetBrainsMono/JetBrainsMono-Regular.woff") format("woff"),
+    url("~assets/fonts/JetBrainsMono/JetBrainsMono-Regular.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "JetBrainsMono";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("~assets/fonts/JetBrainsMono/JetBrainsMono-Medium.eot");
+  src: url("~assets/fonts/JetBrainsMono/JetBrainsMono-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("~assets/fonts/JetBrainsMono/JetBrainsMono-Medium.woff2")
+      format("woff2"),
+    url("~assets/fonts/JetBrainsMono/JetBrainsMono-Medium.woff") format("woff"),
+    url("~assets/fonts/JetBrainsMono/JetBrainsMono-Medium.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "JetBrainsMono";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("~assets/fonts/JetBrainsMono/JetBrainsMono-Bold.eot");
+  src: url("~assets/fonts/JetBrainsMono/JetBrainsMono-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("~assets/fonts/JetBrainsMono/JetBrainsMono-Bold.woff2") format("woff2"),
+    url("~assets/fonts/JetBrainsMono/JetBrainsMono-Bold.woff") format("woff"),
+    url("~assets/fonts/JetBrainsMono/JetBrainsMono-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JetBrainsMono";
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("~assets/fonts/JetBrainsMono/JetBrainsMono-Extrabold.eot");
+  src: url("~assets/fonts/JetBrainsMono/JetBrainsMono-Extrabold.eot?#iefix")
+      format("embedded-opentype"),
+    url("~assets/fonts/JetBrainsMono/JetBrainsMono-Extrabold.woff2")
+      format("woff2"),
+    url("~assets/fonts/JetBrainsMono/JetBrainsMono-Extrabold.woff")
+      format("woff"),
+    url("~assets/fonts/JetBrainsMono/JetBrainsMono-Extrabold.ttf")
+      format("truetype");
+}

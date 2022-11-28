@@ -1,0 +1,193 @@
+@import "fonts.scss";
+@import "theme.scss";
+@import "editor.scss";
+
+.d-container {
+  max-width: 1280px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.d-container-2 {
+  max-width: 1280px;
+  width: 100%;
+}
+.shadow-header {
+  box-shadow: 0 0.6rem 1.2rem -0.2rem rgba(#675cff, 0.15);
+}
+.font-mono-jet {
+  font-family: "JetBrainsMono";
+}
+.h-sidebar{
+  min-height: calc(100vh - 7.5rem);
+}
+
+//// BUTTONS ////
+////////////////
+.btn-primary {
+  box-shadow: 0 0 0 0 var(--c-primary-50), 0 0 0 0 var(--c-text);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  box-shadow: -0.5rem 0.5rem 1rem 0 var(--c-primary-50),
+    -0.25rem 0.25rem 0 0 var(--c-text);
+  outline: none !important;
+}
+
+.btn-secondary {
+  box-shadow: 0 0 0 0 var(--c-secondary-50), 0 0 0 0 var(--c-text);
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  box-shadow: -0.5rem 0.5rem 1rem 0 var(--c-secondary-50),
+    -0.25rem 0.25rem 0 0 var(--c-text);
+  outline: none !important;
+}
+
+.btn-text {
+  box-shadow: 0 0.5rem 1rem 0 var(--c-dark-15), 0 0 0 0 var(--c-primary-50),
+    0 0 0 0 var(--c-primary);
+}
+.btn-text:hover,
+.btn-text:focus {
+  box-shadow: 0 0.5rem 1rem 0 var(--c-dark-00),
+    -0.5rem 0.5rem 1rem 0 var(--c-primary-50),
+    -0.25rem 0.25rem 0 0 var(--c-primary);
+  outline: none !important;
+}
+
+.btn-text-sec {
+  box-shadow: 0 0.5rem 1rem 0 var(--c-dark-25), 0 0 0 0 var(--c-dark);
+}
+.btn-text-sec:hover,
+.btn-text-sec:focus {
+  box-shadow: -0.5rem 0.5rem 1rem 0 var(--c-dark-50),
+    -0.35rem 0.35rem 0 0 var(--c-dark);
+  outline: none !important;
+}
+.btn-text-ter {
+  box-shadow: 0 0 0 0 var(--c-background);
+}
+.btn-text-ter:hover,
+.btn-text-ter:focus {
+  box-shadow: -0.35rem 0.35rem 0 0 var(--c-background);
+  outline: none !important;
+}
+.btn-text-qua {
+  box-shadow: 0 0 0 0 var(--c-text);
+}
+.btn-text-qua:hover,
+.btn-text-qua:focus {
+  box-shadow: -0.35rem 0.35rem 0 0 var(--c-text);
+  outline: none !important;
+}
+.btn-background {
+  box-shadow: 0 0.5rem 1rem 0 var(--c-shdw-5), 0 0 0 0 var(--c-text);
+}
+.btn-background:hover,
+.btn-background:focus {
+  box-shadow: 0 0.5rem 1rem 0 var(--c-shdw-5), -0.35rem 0.35rem 0 0 var(--c-text);
+  outline: none !important;
+}
+////////
+/// Transitions
+.modalBgTransition-enter-active {
+  transition: all 0.25s ease-out;
+}
+.modalBgTransition-leave-active {
+  transition: all 0.25s ease-out;
+}
+.modalBgTransition-enter {
+  opacity: 0;
+}
+.modalBgTransition-leave-to {
+  opacity: 0;
+}
+// 
+.modalScaleTransition-enter-active {
+  transition: all 0.2s ease-out;
+}
+.modalScaleTransition-leave-active {
+  transition: all 0.2s ease-out;
+}
+.modalScaleTransition-enter {
+  opacity: 0.25;
+  transform: scaleX(0.75) scaleY(0.25) translateY(-1rem);
+}
+.modalScaleTransition-leave-to {
+  opacity: 0;
+  transform: scaleX(0.75) scaleY(0.25) translateY(-1rem);
+}
+//
+.dropdownTransition-enter-active {
+  transition: all 0.25s ease-out;
+}
+.dropdownTransition-leave-active {
+  transition: all 0.25s ease-out;
+}
+.dropdownTransition-enter {
+  opacity: 0;
+  transform: scaleX(0.25) scaleY(0.5) rotate(2.5deg) translateY(-4rem);
+}
+.dropdownTransition-leave-to {
+  opacity: 0;
+  transform: scaleX(0.25) scaleY(0.5) rotate(2.5deg) translateY(-4rem);
+}
+////////////////
+.modal {
+  z-index: 200;
+}
+
+input {
+  outline: none;
+}
+
+button:hover,
+button:focus,
+a:hover,
+a:focus,
+textarea {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+a,
+input,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-weight: 400;
+  opacity: 0.75;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-weight: 400;
+  opacity: 0.75;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-weight: 400;
+  opacity: 0.75;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-weight: 400;
+  opacity: 0.75;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: var(--c-text);
+  background: var(--c-secondary-50);
+}
+
+::selection {
+  color: var(--c-text);
+  background: var(--c-secondary-50);
+}

@@ -1,0 +1,143 @@
+/* purgecss ignore */
+.theme-dark {
+   //// COLORS ////
+   ///////////////
+
+   // Primary
+   --c-primary: rgba(103,92,255, 1);
+   --c-primary-05: rgba(103,92,255, 0.05);
+   --c-primary-15: rgba(103,92,255, 0.15);
+   --c-primary-25: rgba(103,92,255, 0.25);
+   --c-primary-35: rgba(103,92,255, 0.35);
+   --c-primary-50: rgba(103,92,255, 0.5);
+   --c-primary-less-sat: rgba(112,102,255, 1);
+   // Secondary
+   --c-secondary: rgba(136,80,248, 1);
+   --c-secondary-10: rgba(136,80,248, 0.1);
+   --c-secondary-15: rgba(136,80,248, 0.15);
+   --c-secondary-50: rgba(136,80,248, 0.5);
+   // Background
+   --c-background: rgba(1,0,20, 1);
+   --c-background-05: rgba(1,0,20, 0.05);
+   --c-background-10: rgba(1,0,20, 0.10);
+   --c-background-15: rgba(1,0,20, 0.15);
+   --c-background-75: rgba(1,0,20, 0.75);
+   --c-background-sec: rgba(24,23,38, 1);
+   --c-background-ter: rgba(34,33,51, 1);
+   --c-background-qua: rgba(44,43,61, 1);
+   // Text
+   --c-text: rgba(242,241,255, 1);
+   --c-text-05: rgba(242,241,255, 0.05);
+   --c-text-10: rgba(242,241,255, 0.1);
+   --c-text-15: rgba(242,241,255, 0.15);
+   --c-text-25: rgba(242,241,255, 0.25);
+   --c-text-40: rgba(242,241,255, 0.4);
+   // Success
+   --c-success: rgba(177,255,170, 1);
+   --c-success-10: rgba(177,255,170, 0.1);
+   --c-success-15: rgba(177,255,170, 0.15);
+   --c-success-40: rgba(177,255,170, 0.4);
+   // Danger
+   --c-danger: rgba(255,128,128, 1);
+   --c-danger-10: rgba(255,128,128, 0.1);
+   --c-danger-15: rgba(255,128,128, 0.15);
+   --c-danger-40: rgba(255,128,128, 0.4);
+   // Pending
+   --c-pending: rgba(255,223,123, 1);
+   --c-pending-10: rgba(255,223,123, 0.1);
+   --c-pending-40: rgba(255,223,123, 0.4);
+   // Other
+   --c-metamask: rgba(245,132,31, 1);
+   --c-portis: rgba(109,178,216, 1);
+   --c-authereum: rgba(255,76,47, 1);
+   // Dark color
+   --c-dark: rgba(24,23,38, 1);
+   --c-dark-00: rgba(24,23,38, 0);
+   --c-dark-15: rgba(24,23,38, 0.15);
+   --c-dark-25: rgba(24,23,38, 0.25);
+   --c-dark-50: rgba(24,23,38, 0.5);
+   // Light color
+   --c-light: rgba(255,255,255, 1);
+   --c-light-15: rgba(255,255,255,0.15);
+   --c-light-25: rgba(255,255,255,0.25);
+   --c-light-35: rgba(255,255,255, 0.35);
+
+   // Shadow colors
+   --c-shdw-1: rgba(0,0,0,0.05);
+   --c-shdw-2: rgba(0,0,0,0.1);
+   --c-shdw-3: rgba(0,0,0,0.2);
+   --c-shdw-4: rgba(0,0,0,0.35);
+   --c-shdw-5: rgba(0,0,0,0.45);
+   --c-shdw-6: rgba(0,0,0,0.6);
+
+
+}
+
+/* purgecss ignore */
+.theme-light{
+   // Primary
+   --c-primary: rgba(103,92,255, 1);
+   --c-primary-15: rgba(103,92,255, 0.05);
+   --c-primary-15: rgba(103,92,255, 0.15);
+   --c-primary-25: rgba(103,92,255, 0.25);
+   --c-primary-35: rgba(103,92,255, 0.35);
+   --c-primary-50: rgba(103,92,255, 0.5);
+   --c-primary-less-sat: rgba(112,102,255, 1);
+   // Secondary
+   --c-secondary: rgba(136,80,248, 1);
+   --c-secondary-10: rgba(136,80,248, 0.1);
+   --c-secondary-15: rgba(136,80,248, 0.15);
+   --c-secondary-50: rgba(136,80,248, 0.5);
+   // Background
+   --c-background: rgba(248,247,252, 1);
+   --c-background-05: rgba(248,247,252, 0.05);
+   --c-background-10: rgba(248,247,252, 0.10);
+   --c-background-15: rgba(248,247,252, 0.15);
+   --c-background-75: rgba(248,247,252, 0.75);
+   --c-background-sec: rgba(255,255,255, 1);
+   --c-background-ter: rgba(242,241,255, 1);
+   --c-background-qua: rgba(255,255,255, 1);
+   // Text
+   --c-text: rgba(1,0,20, 1);
+   --c-text-05: rgba(1,0,20, 0.05);
+   --c-text-10: rgba(1,0,20, 0.1);
+   --c-text-15: rgba(1,0,20, 0.15);
+   --c-text-25: rgba(1,0,20, 0.25);
+   --c-text-40: rgba(1,0,20, 0.4);
+   // Success
+   --c-success: rgba(0,153,102, 1);
+   --c-success-10: rgba(0,153,102, 0.1);
+   --c-success-15: rgba(0,153,102, 0.15);
+   --c-success-40: rgba(0,153,102, 0.4);
+   // Danger
+   --c-danger: rgba(153,0,64, 1);
+   --c-danger-10: rgba(153,0,64, 0.1);
+   --c-danger-15: rgba(153,0,64, 0.15);
+   --c-danger-40: rgba(153,0,64, 0.4);
+   // Pending
+   --c-pending: rgba(205,137,0, 1);
+   --c-pending-10: rgba(205,137,0, 0.1);
+   --c-pending-40: rgba(205,137,0, 0.4);
+   // Other
+   --c-metamask: rgba(245,132,31, 1);
+   --c-portis: rgba(109,178,216, 1);
+   --c-authereum: rgba(255,76,47, 1);
+   // Dark color
+   --c-dark: rgba(24,23,38, 1);
+   --c-dark-00: rgba(24,23,38, 0);
+   --c-dark-15: rgba(24,23,38, 0.15);
+   --c-dark-25: rgba(24,23,38, 0.25);
+   --c-dark-50: rgba(24,23,38, 0.5);
+   // Light color
+   --c-light: rgba(255,255,255, 1);
+   --c-light-15: rgba(255,255,255,0.15);
+   --c-light-25: rgba(255,255,255,0.25);
+   --c-light-35: rgba(255,255,255, 0.35);
+   // Shadow colors
+   --c-shdw-1: rgba(0,0,0,0.02);
+   --c-shdw-2: rgba(0,0,0,0.04);
+   --c-shdw-3: rgba(0,0,0,0.08);
+   --c-shdw-4: rgba(0,0,0,0.16);
+   --c-shdw-5: rgba(0,0,0,0.24);
+   --c-shdw-6: rgba(0,0,0,0.36);
+}
